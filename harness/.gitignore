@@ -1,0 +1,5 @@
+builds/
+hw/unit-tests/diff/
+hw/unit-tests/sim.out
+hw/unit-tests/sim_dump.vcd
+hw/unit-tests/vapor_view.json

@@ -1,0 +1,16 @@
+# Files of src/hdl that are not part of the vhsnunzip_unbuffered build.
+# Glob patterns on the file name, used by hw/CMakeLists.txt and scripts/ooc.tcl.
+
+# Testbenches and behavioural models (vhsnunzip_ram.syn.vhd is used instead)
+*_tc.sim.08.vhd
+*.sim.vhd
+vhsnunzip_execute_dual.vhd
+
+# Toplevels with hardcoded 8-byte ports, not benchmarked here. The harness
+# covers vhsnunzip_unbuffered_small with LONG_CHUNKS = 0.
+vhsnunzip_unbuffered_small.vhd
+vhsnunzip.vhd
+vhsnunzip_5.vhd
+vhsnunzip_8.vhd
+vhsnunzip_buffered.vhd
+vhsnunzip_port_arbiter.vhd
